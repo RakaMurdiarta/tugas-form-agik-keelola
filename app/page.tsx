@@ -14,6 +14,7 @@ const dataForm: IdataForm[] = [
   },
 ];
 const Home = () => {
+  console.log(dataForm);
   return (
     <div className="">
       {/* <Form data={dataForm} /> */}
